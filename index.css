@@ -1,0 +1,41 @@
+body{
+    background-color:#cccccc;
+}
+.formContainer{
+    display: fixed; 
+    align-items: center;
+    border-radius: 0.5rem;
+    justify-content: center;
+    border: 0.5px solid #848181;
+    margin: auto;
+    margin-top: 150px;
+    padding:2.5rem;
+    width: 20%;
+    background-color: #f0ed3c;
+    box-shadow: 0px 0px 5px 4px rgba(0, 0, 0, 0.3);
+}
+#loginForm{
+    margin: auto;
+    margin-top: 20px;
+    width: 100%;
+}
+#loginForm input{
+    margin: 10px 10px;
+    width: 90%;
+    height: 35px;
+    font-size: 18px;
+    padding: 10px;
+}
+#loginForm button{
+    background-color:#9ACD32;
+    margin: 10px 10px;
+    margin-left: 35%;
+    min-width: 100px;
+    border-radius: 0.5rem;
+    border-color: 2px solid black;
+    width: 10%;
+    height: 35px;
+    padding: 2px;
+    font-size: 20px;
+   
+}

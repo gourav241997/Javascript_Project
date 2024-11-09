@@ -1,0 +1,109 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+#form{
+    width: 800px;
+    margin: auto;
+    margin-top: 50px;
+    padding: 5px;
+}
+#form input{
+    width: 300px;
+    height: 30px;
+    margin-left: 160px;
+}
+#form button{
+    width: 80px;
+    height: 30px;
+}
+#form #next{
+    float: right;
+}
+#form #prev{
+    display: none;
+}
+#resume{
+    width: 50%;
+    margin: auto;
+    margin-top: 50px;
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+    border: 2px solid;
+    box-shadow: 0px 0px 5px 4px rgba(0, 0, 0, 0.3);
+}
+#notFound{
+    position: relative;
+    display: none;
+    width: 35%;
+    height: 120px;
+    margin: auto;
+    border-radius: 0.5rem;
+    margin-top: 50px;
+    padding: 30px;
+    border: 2px solid;
+    box-shadow: 0px 0px 5px 4px rgba(0, 0, 0, 0.3);
+}
+header{
+    position: relative;
+    margin: 0;
+    padding: 10px;
+    text-align: center;
+    background-color: rgb(197, 251, 233);
+    
+}
+#avatar{
+    position: absolute;
+    top: 0;
+    right: 0;
+    height: 100px;
+    width: 100px;
+    margin-right: 70px;
+    margin-top: 25px;
+}
+
+section{
+    margin: 10px;
+    margin-left: 20px;
+    padding: 10px;
+    float: left;
+    background-color:rgb(250, 221, 226)
+}
+section div h3{
+    padding: 5px;
+    text-align: left;
+    background-color: rgb(183, 183, 183);
+}
+section div{
+    text-align: right;
+}
+.infoContainer{
+    margin: 0 50px 0px 230px;
+}
+.infoContainer div div{
+    margin-left: 20px;
+    line-height: 1.5em;
+    
+}
+.skills, .hobbies{
+    list-style: none;
+}
+.work p{
+    margin-top: 0;
+}
+#nfImage{
+    height: 100px;
+    width: 100px;
+    margin-left: 50px;
+    margin-top: 10px;
+}
+#nfText{
+    position: absolute;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: x-large;
+    top: 0;
+    right: 0;
+    margin-right: 130px;
+    margin-top: 60px;
+    margin-bottom: 20px;
+}

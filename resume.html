@@ -1,0 +1,70 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="resume.css">
+</head>
+
+<body>
+    <script src="src/resume.js" type="module"></script>
+    <form id="form">
+        <button type="button" id="prev">Prev</button>
+        <input type="text" placeholder="search for keywords to filter the resume" id="search">
+        <button type="button" id="next">Next</button>
+    </form>
+    <div id="resume">
+        <header>
+            <h1 id="name"></h1>
+            <h3 id="positionApplied"></h3>
+             <img src="./img/avatar.png" id="avatar">
+           
+        </header>
+        <section class="extraInfo">
+            <div class="personalInformation">
+                <h3>Personal Information</h3>
+                <span id="phone"></span> <br />
+                <span id="email"></span> <br />
+                <a href="#" id="linkedIn">LinkedIn</a>
+            </div>
+            <div class="skills">
+                <h3>Technical Skills</h3>
+                <div id="skills"></div>
+            </div>
+            <div class="hobbies">
+                <h3>Hobbies</h3>
+                <div id="hobbies"></div>
+            </div>
+        </section>
+        <div class="infoContainer">
+            <div class="work">
+                <h2>Work Experience in previous company</h2>
+                <div id="work"></div>
+            </div>
+            <div class="projects">
+                <h2>Projects</h2>
+                <div id="projects"></div>
+            </div>
+            <div class="education">
+                <h2>Education</h2>
+                <div id="education"></div>
+            </div>
+            <div class="internship">
+                <h2>Intership</h2>
+                <div id="internship"></div>
+            </div>
+            <div class="achievement">
+                <h2>Achievements</h2>
+                <div id="achievement"></div>
+            </div>
+        </div>
+    </div>
+    <div id="notFound">
+        <img src="./img/photo.png" id="nfImage"> 
+        <div id="nfText">No such result found</div>
+        </found>
+    </div>
+</body>
+
+</html>
